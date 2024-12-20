@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wordly-simple-analog/static/css/main.afd97f13.css",
+    "main.js": "/wordly-simple-analog/static/js/main.2aedce34.js",
+    "index.html": "/wordly-simple-analog/index.html",
+    "main.afd97f13.css.map": "/wordly-simple-analog/static/css/main.afd97f13.css.map",
+    "main.2aedce34.js.map": "/wordly-simple-analog/static/js/main.2aedce34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afd97f13.css",
+    "static/js/main.2aedce34.js"
+  ]
+}
