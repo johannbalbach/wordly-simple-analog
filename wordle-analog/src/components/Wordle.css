@@ -1,0 +1,15 @@
+.wordle {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .attempts {
+    margin: 20px 0;
+  }
+  
+  .input-area {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  

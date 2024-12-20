@@ -1,0 +1,27 @@
+.letter {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .letter.correct {
+    background-color: #6aaa64;
+    color: white;
+  }
+  
+  .letter.present {
+    background-color: #c9b458;
+    color: white;
+  }
+  
+  .letter.absent {
+    background-color: #787c7e;
+    color: white;
+  }
