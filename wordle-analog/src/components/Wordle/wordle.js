@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { CONFIG } from "../store/config";
+import { CONFIG } from "../../store/config";
 import WordRow from "./wordRow";
-import Keyboard from "./Keyboard";
-import "./Wordle.css";
+import Keyboard from "../Keyboard";
+import "../styles/Wordle.css";
 
 const Wordle = () => {
     const [attempts, setAttempts] = useState(
@@ -81,7 +81,7 @@ const Wordle = () => {
   
     return (
       <div className="wordle">
-        <h1>Wordle Clone</h1>
+        <h1>Клон Wordle</h1>
         <div className="attempts">
           {attempts.map((attempt, index) => (
             <WordRow

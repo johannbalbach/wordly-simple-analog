@@ -1,0 +1,59 @@
+.crossword-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+  
+  .grid-cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #a3a3a3;
+    margin: 0 0 1px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+  }
+  .empty-cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .secret-cell {
+    background-color: #6D7FA1;
+  }
+  
+  .selected-cell {
+    border: 1px solid #000;
+  }
+
+  .word-description {
+    margin-top: 40px;
+    margin-bottom: 40px; 
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 16px;
+    font-style: italic;
+    color: #333;
+  }

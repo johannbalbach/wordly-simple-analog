@@ -1,9 +1,12 @@
 import React from "react";
-import "./Keyboard.css";
+import "./styles/Keyboard.css";
 
-const Keyboard = ({ onKeyPress, onDelete, onSubmit }) => {
+const Keyboard = ({ onKeyPress, onDelete, onSubmit}) => {
   const keys = [
     "QWERTYUIOP", "ASDFGHJKL", "ZXCVBNM"
+  ];
+  const russian_keys = [
+    "йцукенгшщзхъ", "фывапролджэ", "ячсмитьбю"
   ];
 
   return (

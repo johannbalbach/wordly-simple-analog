@@ -1,0 +1,43 @@
+.crossword-word {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crossword-word.secret-word {
+  background-color: navy;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.word-input {
+  display: flex;
+  gap: 5px;
+}
+
+.word-input input {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.word-input input.highlight {
+  background-color: navy;
+  color: white;
+}
+
+.word-input:hover::after {
+  content: attr(title);
+  display: block;
+  position: absolute;
+  background-color: #222;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+}

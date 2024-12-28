@@ -1,12 +1,21 @@
-import './App.css';
-import Wordle from './components/wordle.js';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import NavigationBar from "./components/NavigationBar";
+import WordlePage from "./components/Wordle/WordlePage";
+//import CrosswordPage from "./components/Crossword/CrosswordPage";
+import "./App.css";
+import Crossword from "./components/Crossword/Crossword";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Wordle />
-    </div>
+    <Router>
+      <NavigationBar />
+      <Routes>
+        <Route path="/wordle" element={<WordlePage />} />
+        <Route path="/crossword" element={<Crossword />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

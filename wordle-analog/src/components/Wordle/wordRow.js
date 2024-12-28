@@ -1,5 +1,5 @@
 import React from "react";
-import "./WordRow.css";
+import "../styles/WordRow.css";
 import LetterBox from "./letterBox";
 
 const WordRow = ({ word, evaluation }) => {
