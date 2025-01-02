@@ -7,6 +7,7 @@ const NavigationBar = () => {
     <nav className="navigation-bar">
       <Link to="/wordle">Wordle</Link>
       <Link to="/crossword">Crossword</Link>
+      <Link to="/jeopardy">Jeopardy</Link>
     </nav>
   );
 };
