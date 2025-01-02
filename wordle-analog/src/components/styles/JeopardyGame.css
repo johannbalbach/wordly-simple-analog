@@ -23,7 +23,7 @@
 }
 
 .board {
-    height: calc(-10vh); 
+    height: 0; 
     position: relative;
     justify-content: center;
     align-self: center;
