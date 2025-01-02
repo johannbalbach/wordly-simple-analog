@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/wordly-simple-analog/static/css/main.dd2001b8.css",
-    "main.js": "/wordly-simple-analog/static/js/main.08d68979.js",
+    "main.css": "/wordly-simple-analog/static/css/main.8d72ecce.css",
+    "main.js": "/wordly-simple-analog/static/js/main.07627a3b.js",
+    "static/media/Futura_Condenced-Normal.ttf": "/wordly-simple-analog/static/media/Futura_Condenced-Normal.3722c99ceadb8a4aa7a6.ttf",
+    "static/media/EugustoFreePersonalUse-Regular.otf": "/wordly-simple-analog/static/media/EugustoFreePersonalUse-Regular.384873ad598d694c0446.otf",
     "index.html": "/wordly-simple-analog/index.html",
-    "main.dd2001b8.css.map": "/wordly-simple-analog/static/css/main.dd2001b8.css.map",
-    "main.08d68979.js.map": "/wordly-simple-analog/static/js/main.08d68979.js.map"
+    "main.8d72ecce.css.map": "/wordly-simple-analog/static/css/main.8d72ecce.css.map",
+    "main.07627a3b.js.map": "/wordly-simple-analog/static/js/main.07627a3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd2001b8.css",
-    "static/js/main.08d68979.js"
+    "static/css/main.8d72ecce.css",
+    "static/js/main.07627a3b.js"
   ]
 }
